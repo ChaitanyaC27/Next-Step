@@ -1,0 +1,166 @@
+{
+    "topic": "Software Engineering",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Which phase of SDLC involves gathering requirements?",
+        "options": ["Design", "Testing", "Requirement Analysis", "Deployment"],
+        "answer": "Requirement Analysis",
+        "difficulty": "easy",
+        "prerequisite": "SDLC"
+      },
+      {
+        "id": 2,
+        "question": "Which SDLC phase focuses on coding the application?",
+        "options": ["Planning", "Implementation", "Testing", "Maintenance"],
+        "answer": "Implementation",
+        "difficulty": "easy",
+        "prerequisite": "SDLC"
+      },
+      {
+        "id": 3,
+        "question": "Which SDLC phase ensures that the system meets business goals and user needs?",
+        "options": ["Requirement Analysis", "Testing", "Maintenance", "Design"],
+        "answer": "Testing",
+        "difficulty": "medium",
+        "prerequisite": "SDLC"
+      },
+      {
+        "id": 4,
+        "question": "Which SDLC model is best suited for projects with well-defined requirements that do not change?",
+        "options": ["Agile", "Waterfall", "V-Model", "Spiral"],
+        "answer": "Waterfall",
+        "difficulty": "hard",
+        "prerequisite": "SDLC"
+      },
+      {
+        "id": 5,
+        "question": "Which software development methodology is iterative and flexible?",
+        "options": ["Waterfall", "Agile", "V-Model", "Big Bang"],
+        "answer": "Agile",
+        "difficulty": "easy",
+        "prerequisite": "Waterfall vs. Agile"
+      },
+      {
+        "id": 6,
+        "question": "Which Agile framework uses time-boxed iterations called sprints?",
+        "options": ["Kanban", "Scrum", "Waterfall", "Lean"],
+        "answer": "Scrum",
+        "difficulty": "easy",
+        "prerequisite": "Waterfall vs. Agile"
+      },
+      {
+        "id": 7,
+        "question": "Which Agile methodology focuses on continuous delivery and eliminating waste?",
+        "options": ["Scrum", "Kanban", "Waterfall", "V-Model"],
+        "answer": "Kanban",
+        "difficulty": "medium",
+        "prerequisite": "Waterfall vs. Agile"
+      },
+      {
+        "id": 8,
+        "question": "Which of these is NOT a principle of Agile?",
+        "options": ["Customer collaboration", "Comprehensive documentation", "Responding to change", "Individuals over processes"],
+        "answer": "Comprehensive documentation",
+        "difficulty": "hard",
+        "prerequisite": "Waterfall vs. Agile"
+      },
+      {
+        "id": 9,
+        "question": "Which tool is commonly used for version control?",
+        "options": ["Git", "JIRA", "Jenkins", "Docker"],
+        "answer": "Git",
+        "difficulty": "easy",
+        "prerequisite": "Version control basics"
+      },
+      {
+        "id": 10,
+        "question": "Which command is used to check the status of a Git repository?",
+        "options": ["git commit", "git clone", "git status", "git push"],
+        "answer": "git status",
+        "difficulty": "easy",
+        "prerequisite": "Version control basics"
+      },
+      {
+        "id": 11,
+        "question": "What is the purpose of a Git branch?",
+        "options": ["To delete files", "To store backup copies", "To work on different features independently", "To revert commits"],
+        "answer": "To work on different features independently",
+        "difficulty": "medium",
+        "prerequisite": "Version control basics"
+      },
+      {
+        "id": 12,
+        "question": "What is a merge conflict in Git?",
+        "options": ["A syntax error in code", "An error in deployment", "Conflicting changes in the same file", "A missing dependency"],
+        "answer": "Conflicting changes in the same file",
+        "difficulty": "hard",
+        "prerequisite": "Version control basics"
+      },
+      {
+        "id": 13,
+        "question": "Which type of testing checks if an application meets user expectations?",
+        "options": ["Unit testing", "Integration testing", "System testing", "Acceptance testing"],
+        "answer": "Acceptance testing",
+        "difficulty": "easy",
+        "prerequisite": "Testing types"
+      },
+      {
+        "id": 14,
+        "question": "Which type of testing ensures that different modules work together?",
+        "options": ["Unit testing", "Integration testing", "Load testing", "Security testing"],
+        "answer": "Integration testing",
+        "difficulty": "easy",
+        "prerequisite": "Testing types"
+      },
+      {
+        "id": 15,
+        "question": "Which type of testing is done by developers before handing off to testers?",
+        "options": ["Unit testing", "System testing", "Beta testing", "Regression testing"],
+        "answer": "Unit testing",
+        "difficulty": "medium",
+        "prerequisite": "Testing types"
+      },
+      {
+        "id": 16,
+        "question": "Which testing type focuses on checking how the system handles a large number of users?",
+        "options": ["Unit testing", "Load testing", "Functional testing", "Acceptance testing"],
+        "answer": "Load testing",
+        "difficulty": "hard",
+        "prerequisite": "Testing types"
+      },
+      {
+        "id": 17,
+        "question": "Which design pattern ensures that only one instance of a class is created?",
+        "options": ["Factory", "Singleton", "Observer", "Decorator"],
+        "answer": "Singleton",
+        "difficulty": "easy",
+        "prerequisite": "Design patterns"
+      },
+      {
+        "id": 18,
+        "question": "Which design pattern allows one class to change its behavior at runtime?",
+        "options": ["Factory", "Strategy", "Observer", "Adapter"],
+        "answer": "Strategy",
+        "difficulty": "easy",
+        "prerequisite": "Design patterns"
+      },
+      {
+        "id": 19,
+        "question": "Which design pattern allows a class to listen for updates from another class?",
+        "options": ["Factory", "Singleton", "Observer", "Decorator"],
+        "answer": "Observer",
+        "difficulty": "medium",
+        "prerequisite": "Design patterns"
+      },
+      {
+        "id": 20,
+        "question": "Which design pattern allows wrapping an object to add new behavior?",
+        "options": ["Decorator", "Factory", "Singleton", "Observer"],
+        "answer": "Decorator",
+        "difficulty": "hard",
+        "prerequisite": "Design patterns"
+      }
+    ]
+  }
+  

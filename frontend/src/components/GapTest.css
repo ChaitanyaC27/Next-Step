@@ -1,0 +1,234 @@
+/* Dark Theme with Smooth Animations */
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Floating Animation */
+@keyframes floatEffect {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-5px); }
+  100% { transform: translateY(0px); }
+}
+
+/* Glowing Animation */
+@keyframes glowEffect {
+  0% { box-shadow: 0 0 10px rgba(255, 153, 0, 0.5); }
+  50% { box-shadow: 0 0 20px rgba(255, 153, 0, 1); }
+  100% { box-shadow: 0 0 10px rgba(255, 153, 0, 0.5); }
+}
+
+/* General Container */
+.gap-test-container,
+.gap-question-card,
+.gap-result-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #1e1e1e;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  text-align: center;
+  animation: fadeIn 0.8s ease-in-out, glowEffect 3s infinite alternate;
+}
+
+/* Headings */
+h1 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #ff9900;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #ffcc66;
+}
+
+/* Question Display */
+.question-text {
+  font-size: 14px;
+  font-weight: normal;
+  color: #aaa;
+  margin-bottom: 15px;
+}
+
+/* Options List */
+.options-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px; /* Options aur buttons ke beech gap */
+}
+
+.option {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0; /* Options ke beech gap */
+  font-size: 14px;
+  background: #252525;
+  border: 1px solid #555;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.option:hover {
+  background: #333;
+}
+
+/* Active Selected Option */
+.option.selected {
+  background: #ff9800;
+  color: #000;
+  border: 1px solid #ff6600;
+  box-shadow: 0 0 10px rgba(255, 102, 0, 0.8);
+}
+
+/* Timer Display */
+.timer {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ff4444;
+  margin-bottom: 15px;
+}
+
+/* Result Table */
+.result-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.result-table th,
+.result-table td {
+  padding: 10px;
+  border: 1px solid #555;
+  text-align: center;
+}
+
+.result-table th {
+  background: #ff9900;
+  color: black;
+}
+
+.result-table td.weak {
+  background: #d9534f;
+  color: white;
+}
+
+.result-table td.average {
+  background: #ffcc00;
+  color: black;
+}
+
+.result-table td.strong {
+  background: #5cb85c;
+  color: white;
+}
+
+/* Buttons */
+.button-container {
+  display: flex;
+  justify-content: center; /* Buttons center align */
+  gap: 15px; /* Buttons ke beech gap */
+  margin-top: 20px; /* Options aur buttons ke beech gap */
+}
+
+button {
+  flex: 1; /* Equal width */
+  padding: 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:disabled {
+  background: #666;
+  cursor: not-allowed;
+}
+
+/* Submit Button */
+.submit-btn {
+  background: #28a745;
+  color: white;
+}
+
+.submit-btn:hover {
+  background: #218838;
+}
+
+/* Retake Test Button */
+.retake-btn {
+  background: #ff9900;
+  color: black;
+}
+
+.retake-btn:hover {
+  background: #ff6600;
+}
+
+/* Loading Text */
+.loading {
+  font-size: 14px;
+  font-style: italic;
+  color: #bbb;
+}
+
+/* Scrollbar Darker */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #444444;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555555;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .gap-test-container,
+  .gap-question-card,
+  .gap-result-container {
+    width: 90%;
+  }
+
+  .option {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  button {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .button-container {
+    flex-direction: column; /* Mobile me buttons ek ke niche aayenge */
+  }
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

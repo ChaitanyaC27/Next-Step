@@ -1,0 +1,166 @@
+{
+    "topic": "Cybersecurity",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Which encryption method uses the same key for encryption and decryption?",
+        "options": ["Asymmetric", "Hashing", "Symmetric", "Salting"],
+        "answer": "Symmetric",
+        "difficulty": "easy",
+        "prerequisite": "Encryption basics"
+      },
+      {
+        "id": 2,
+        "question": "Which encryption method uses a public key for encryption and a private key for decryption?",
+        "options": ["Symmetric", "Asymmetric", "Hashing", "Steganography"],
+        "answer": "Asymmetric",
+        "difficulty": "easy",
+        "prerequisite": "Encryption basics"
+      },
+      {
+        "id": 3,
+        "question": "Which encryption algorithm is commonly used for securing HTTPS connections?",
+        "options": ["AES", "RSA", "SHA-256", "MD5"],
+        "answer": "RSA",
+        "difficulty": "medium",
+        "prerequisite": "Encryption basics"
+      },
+      {
+        "id": 4,
+        "question": "Which of the following encryption algorithms is considered the strongest for modern use?",
+        "options": ["DES", "AES", "RC4", "MD5"],
+        "answer": "AES",
+        "difficulty": "hard",
+        "prerequisite": "Encryption basics"
+      },
+      {
+        "id": 5,
+        "question": "Which type of cyber attack tricks users into revealing sensitive information?",
+        "options": ["Phishing", "DDoS", "Ransomware", "Man-in-the-Middle"],
+        "answer": "Phishing",
+        "difficulty": "easy",
+        "prerequisite": "Cyber threats"
+      },
+      {
+        "id": 6,
+        "question": "Which cyber attack involves overwhelming a target system with traffic to cause a crash?",
+        "options": ["SQL Injection", "DDoS", "Ransomware", "Phishing"],
+        "answer": "DDoS",
+        "difficulty": "easy",
+        "prerequisite": "Cyber threats"
+      },
+      {
+        "id": 7,
+        "question": "What type of malware encrypts user files and demands payment for decryption?",
+        "options": ["Trojan", "Ransomware", "Spyware", "Rootkit"],
+        "answer": "Ransomware",
+        "difficulty": "medium",
+        "prerequisite": "Cyber threats"
+      },
+      {
+        "id": 8,
+        "question": "Which attack involves intercepting and altering communication between two parties?",
+        "options": ["DDoS", "Man-in-the-Middle", "Phishing", "Brute Force"],
+        "answer": "Man-in-the-Middle",
+        "difficulty": "hard",
+        "prerequisite": "Cyber threats"
+      },
+      {
+        "id": 9,
+        "question": "What does authentication verify?",
+        "options": ["Who you are", "What you can access", "What data is encrypted", "Where data is stored"],
+        "answer": "Who you are",
+        "difficulty": "easy",
+        "prerequisite": "Auth vs. authz"
+      },
+      {
+        "id": 10,
+        "question": "What does authorization determine?",
+        "options": ["Who you are", "What you can access", "What data is encrypted", "Where data is stored"],
+        "answer": "What you can access",
+        "difficulty": "easy",
+        "prerequisite": "Auth vs. authz"
+      },
+      {
+        "id": 11,
+        "question": "Which authentication method is considered the most secure?",
+        "options": ["Password-only", "Two-Factor Authentication (2FA)", "Security questions", "Username-only"],
+        "answer": "Two-Factor Authentication (2FA)",
+        "difficulty": "medium",
+        "prerequisite": "Auth vs. authz"
+      },
+      {
+        "id": 12,
+        "question": "Which protocol is commonly used for single sign-on (SSO)?",
+        "options": ["HTTP", "OAuth", "SMTP", "DNS"],
+        "answer": "OAuth",
+        "difficulty": "hard",
+        "prerequisite": "Auth vs. authz"
+      },
+      {
+        "id": 13,
+        "question": "Which hashing algorithm is commonly used to store passwords securely?",
+        "options": ["MD5", "SHA-256", "AES", "RSA"],
+        "answer": "SHA-256",
+        "difficulty": "easy",
+        "prerequisite": "Hashing"
+      },
+      {
+        "id": 14,
+        "question": "Which of the following is NOT a characteristic of a cryptographic hash function?",
+        "options": ["Deterministic", "Reversible", "Collision-resistant", "Fast computation"],
+        "answer": "Reversible",
+        "difficulty": "easy",
+        "prerequisite": "Hashing"
+      },
+      {
+        "id": 15,
+        "question": "What is the main purpose of 'salting' a password before hashing?",
+        "options": ["To make hashes unique", "To make decryption easier", "To reduce hash size", "To increase hash speed"],
+        "answer": "To make hashes unique",
+        "difficulty": "medium",
+        "prerequisite": "Hashing"
+      },
+      {
+        "id": 16,
+        "question": "Which of the following makes hashing more secure against brute-force attacks?",
+        "options": ["Salting", "Compression", "Encryption", "Checksum"],
+        "answer": "Salting",
+        "difficulty": "hard",
+        "prerequisite": "Hashing"
+      },
+      {
+        "id": 17,
+        "question": "Which security practice helps prevent SQL Injection attacks?",
+        "options": ["Using strong passwords", "Input validation", "Disabling JavaScript", "Enabling cookies"],
+        "answer": "Input validation",
+        "difficulty": "easy",
+        "prerequisite": "Security best practices"
+      },
+      {
+        "id": 18,
+        "question": "Which security measure ensures data confidentiality during transmission?",
+        "options": ["Firewall", "Antivirus", "Encryption", "Logging"],
+        "answer": "Encryption",
+        "difficulty": "easy",
+        "prerequisite": "Security best practices"
+      },
+      {
+        "id": 19,
+        "question": "Which principle recommends giving users the minimum access needed?",
+        "options": ["Zero Trust", "Defense in Depth", "Least Privilege", "Access Control"],
+        "answer": "Least Privilege",
+        "difficulty": "medium",
+        "prerequisite": "Security best practices"
+      },
+      {
+        "id": 20,
+        "question": "Which security measure helps prevent privilege escalation attacks?",
+        "options": ["Enforcing strong passwords", "Implementing least privilege", "Disabling firewall", "Enabling cookies"],
+        "answer": "Implementing least privilege",
+        "difficulty": "hard",
+        "prerequisite": "Security best practices"
+      }
+    ]
+  }
+  

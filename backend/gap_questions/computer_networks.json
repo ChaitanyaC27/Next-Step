@@ -1,0 +1,166 @@
+{
+    "topic": "Computer Networks",
+    "questions": [
+      {
+        "id": 1,
+        "question": "How many layers are in the OSI model?",
+        "options": ["5", "6", "7", "8"],
+        "answer": "7",
+        "difficulty": "easy",
+        "prerequisite": "OSI layers"
+      },
+      {
+        "id": 2,
+        "question": "Which OSI layer is responsible for end-to-end communication?",
+        "options": ["Network", "Transport", "Session", "Presentation"],
+        "answer": "Transport",
+        "difficulty": "easy",
+        "prerequisite": "OSI layers"
+      },
+      {
+        "id": 3,
+        "question": "Which OSI layer is responsible for routing packets?",
+        "options": ["Data Link", "Network", "Transport", "Session"],
+        "answer": "Network",
+        "difficulty": "medium",
+        "prerequisite": "OSI layers"
+      },
+      {
+        "id": 4,
+        "question": "Which OSI layer translates data between application and network formats?",
+        "options": ["Session", "Presentation", "Transport", "Application"],
+        "answer": "Presentation",
+        "difficulty": "hard",
+        "prerequisite": "OSI layers"
+      },
+      {
+        "id": 5,
+        "question": "Which protocol is connection-oriented?",
+        "options": ["TCP", "UDP", "HTTP", "ICMP"],
+        "answer": "TCP",
+        "difficulty": "easy",
+        "prerequisite": "Protocols: TCP, UDP, HTTP"
+      },
+      {
+        "id": 6,
+        "question": "Which protocol is faster but less reliable?",
+        "options": ["TCP", "UDP", "HTTP", "SMTP"],
+        "answer": "UDP",
+        "difficulty": "easy",
+        "prerequisite": "Protocols: TCP, UDP, HTTP"
+      },
+      {
+        "id": 7,
+        "question": "Which layer does HTTP belong to in the OSI model?",
+        "options": ["Transport", "Session", "Application", "Network"],
+        "answer": "Application",
+        "difficulty": "medium",
+        "prerequisite": "Protocols: TCP, UDP, HTTP"
+      },
+      {
+        "id": 8,
+        "question": "Which protocol helps resolve domain names to IP addresses?",
+        "options": ["HTTP", "DNS", "FTP", "TCP"],
+        "answer": "DNS",
+        "difficulty": "hard",
+        "prerequisite": "Protocols: TCP, UDP, HTTP"
+      },
+      {
+        "id": 9,
+        "question": "How many bits are in an IPv4 address?",
+        "options": ["16", "32", "64", "128"],
+        "answer": "32",
+        "difficulty": "easy",
+        "prerequisite": "IP addressing, subnetting"
+      },
+      {
+        "id": 10,
+        "question": "What is the default subnet mask for a Class C IPv4 address?",
+        "options": ["255.0.0.0", "255.255.0.0", "255.255.255.0", "255.255.255.255"],
+        "answer": "255.255.255.0",
+        "difficulty": "easy",
+        "prerequisite": "IP addressing, subnetting"
+      },
+      {
+        "id": 11,
+        "question": "Which CIDR notation represents a subnet with 256 possible IPs?",
+        "options": ["/16", "/24", "/30", "/32"],
+        "answer": "/24",
+        "difficulty": "medium",
+        "prerequisite": "IP addressing, subnetting"
+      },
+      {
+        "id": 12,
+        "question": "Which IPv6 address type is used for a single sender and multiple receivers?",
+        "options": ["Unicast", "Multicast", "Anycast", "Broadcast"],
+        "answer": "Multicast",
+        "difficulty": "hard",
+        "prerequisite": "IP addressing, subnetting"
+      },
+      {
+        "id": 13,
+        "question": "Which network type covers a small geographical area, like an office?",
+        "options": ["LAN", "WAN", "MAN", "PAN"],
+        "answer": "LAN",
+        "difficulty": "easy",
+        "prerequisite": "LAN vs. WAN"
+      },
+      {
+        "id": 14,
+        "question": "Which network type spans cities or large areas?",
+        "options": ["LAN", "WAN", "VPN", "PAN"],
+        "answer": "WAN",
+        "difficulty": "easy",
+        "prerequisite": "LAN vs. WAN"
+      },
+      {
+        "id": 15,
+        "question": "What is the main advantage of a WAN over a LAN?",
+        "options": ["Faster speeds", "Covers larger distances", "Less congestion", "Lower latency"],
+        "answer": "Covers larger distances",
+        "difficulty": "medium",
+        "prerequisite": "LAN vs. WAN"
+      },
+      {
+        "id": 16,
+        "question": "Which technology is commonly used to connect remote offices over a WAN?",
+        "options": ["Ethernet", "Wi-Fi", "VPN", "Bluetooth"],
+        "answer": "VPN",
+        "difficulty": "hard",
+        "prerequisite": "LAN vs. WAN"
+      },
+      {
+        "id": 17,
+        "question": "What does DNS stand for?",
+        "options": ["Domain Name System", "Data Network Service", "Dynamic Naming Server", "Digital Network Security"],
+        "answer": "Domain Name System",
+        "difficulty": "easy",
+        "prerequisite": "DNS"
+      },
+      {
+        "id": 18,
+        "question": "Which DNS record type maps a domain name to an IP address?",
+        "options": ["MX", "CNAME", "A", "TXT"],
+        "answer": "A",
+        "difficulty": "easy",
+        "prerequisite": "DNS"
+      },
+      {
+        "id": 19,
+        "question": "Which protocol is used for secure domain name resolution?",
+        "options": ["DNSSEC", "DHCP", "NTP", "SMTP"],
+        "answer": "DNSSEC",
+        "difficulty": "medium",
+        "prerequisite": "DNS"
+      },
+      {
+        "id": 20,
+        "question": "What is the role of a DNS resolver?",
+        "options": ["Stores domain records", "Translates domain names to IPs", "Hosts websites", "Manages HTTP requests"],
+        "answer": "Translates domain names to IPs",
+        "difficulty": "hard",
+        "prerequisite": "DNS"
+      }
+    ]
+  }
+  

@@ -1,0 +1,100 @@
+/* Import Google Font for a modern coding look */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap');
+
+/* Ensure styles apply only to Ace Editor inside the TechnicalTest component */
+.technical-test-container .ace_editor {
+  border: 3px solid #444;
+  border-radius: 12px;
+  font-size: 16px !important;
+  font-family: 'Fira Code', monospace !important;
+  background-color: #1e1e1e !important; /* Dark background */
+  color: #ffffff !important;
+  width: 100% !important;
+  height: 350px !important;
+  max-width: 900px;
+  margin: 0 auto;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+/* Gutter (line numbers) styling with smooth transition */
+.technical-test-container .ace_gutter {
+  background: #2a2a2a !important;
+  color: #bbb !important;
+  transition: background 0.3s ease-in-out;
+}
+.technical-test-container .ace_gutter:hover {
+  background: #3a3a3a !important;
+}
+
+/* Cursor with glowing animation */
+.technical-test-container .ace_cursor {
+  color: #ffcc00 !important;
+  animation: blinkCursor 1s infinite, cursorGlow 1.5s infinite alternate;
+}
+@keyframes blinkCursor {
+  50% { opacity: 0.5; }
+}
+@keyframes cursorGlow {
+  0% { text-shadow: 0px 0px 5px #ffcc00; }
+  100% { text-shadow: 0px 0px 15px #ffcc00; }
+}
+
+/* Active line effect */
+.technical-test-container .ace_active-line {
+  background: rgba(255, 204, 0, 0.15) !important;
+  transition: background 0.2s ease-in-out;
+}
+.technical-test-container .ace_active-line:hover {
+  background: rgba(255, 204, 0, 0.3) !important;
+}
+
+/* Remove print margin */
+.technical-test-container .ace_print-margin {
+  display: none !important;
+}
+
+/* Syntax Highlighting with glowing effect */
+.technical-test-container .ace_keyword {
+  color: #ff5370 !important;
+  font-weight: bold !important;
+  transition: color 0.3s ease-in-out;
+  text-shadow: 0px 0px 8px rgba(255, 83, 112, 0.7);
+}
+
+.technical-test-container .ace_string {
+  color: #c3e88d !important;
+  transition: color 0.3s ease-in-out;
+  text-shadow: 0px 0px 6px rgba(195, 232, 141, 0.6);
+}
+
+.technical-test-container .ace_comment {
+  color: #7e8294 !important;
+  font-style: italic !important;
+  transition: color 0.3s ease-in-out;
+  text-shadow: 0px 0px 5px rgba(126, 130, 148, 0.5);
+}
+
+.technical-test-container .ace_function {
+  color: #82aaff !important;
+  transition: color 0.3s ease-in-out;
+  text-shadow: 0px 0px 6px rgba(130, 170, 255, 0.6);
+}
+
+/* Hover effects for interactive feel */
+.technical-test-container .ace_editor:hover {
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.4);
+  transform: scale(1.02);
+}
+
+/* Smooth theme switching (if required later) */
+.technical-test-container .ace_dark {
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Glow effect on hover */
+.technical-test-container .ace_editor:focus-within {
+  border-color: #ffcc00;
+  box-shadow: 0px 0px 15px rgba(255, 204, 0, 0.5);
+}

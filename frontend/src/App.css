@@ -1,0 +1,133 @@
+/* App.css */
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+/* Landing Page Styles */
+.app-container {
+  text-align: center;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.2); /* Transparent white */
+  border-radius: 12px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+  animation: fadeIn 1s ease-in-out, floating 4s ease-in-out infinite; /* Floating animation improved */
+  backdrop-filter: blur(12px); /* Increased blur for better glass effect */
+}
+
+/* Next Step Title Styling */
+.next-step-title {
+  font-size: 2.7rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: white;
+  text-shadow: 0 0 15px rgba(255, 255, 255, 1), 
+               0 0 30px rgba(255, 255, 255, 0.9),
+               0 0 50px rgba(255, 255, 255, 0.8);
+  animation: glowEffect 1.5s infinite alternate, floating 4s ease-in-out infinite;
+}
+
+/* Enhanced Glow Effect */
+@keyframes glowEffect {
+  0% {
+    text-shadow: 0 0 15px rgba(255, 255, 255, 1), 
+                 0 0 30px rgba(255, 255, 255, 0.9),
+                 0 0 50px rgba(255, 255, 255, 0.8);
+    transform: scale(1);
+  }
+  100% {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 1), 
+                 0 0 40px rgba(255, 255, 255, 1),
+                 0 0 60px rgba(255, 255, 255, 0.9);
+    transform: scale(1.08);
+  }
+}
+
+/* Improved Floating Animation */
+@keyframes floating {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.get-started-btn {
+  padding: 16px 30px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: white;
+  background: #ff4d4d;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  animation: popIn 0.8s ease-in-out;
+  box-shadow: 0 6px 15px rgba(255, 140, 0, 0.5);
+}
+
+.get-started-btn:hover {
+  background: white;
+  color: black;
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.5);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Media Queries for Responsiveness */
+
+/* For Mobile Devices (up to 600px) */
+@media (max-width: 600px) {
+  .app-container {
+    padding: 20px;
+  }
+
+  .next-step-title {
+    font-size: 1.8rem; /* Smaller font size for mobile */
+    margin-bottom: 15px;
+  }
+
+  .get-started-btn {
+    padding: 12px 24px;
+    font-size: 1rem;
+  }
+}
+
+/* For Tablets (601px to 900px) */
+@media (min-width: 601px) and (max-width: 900px) {
+  .app-container {
+    padding: 30px;
+  }
+
+  .next-step-title {
+    font-size: 2.2rem; /* Adjusted font size for tablets */
+    margin-bottom: 18px;
+  }
+
+  .get-started-btn {
+    padding: 14px 28px;
+    font-size: 1.1rem;
+  }
+}
+
+/* Desktop-specific Styling */
+@media (min-width: 901px) {
+  /* You can add any specific styles for desktop devices here */
+}

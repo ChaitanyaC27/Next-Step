@@ -1,0 +1,97 @@
+/* Make the container fill the entire viewport and enable scrolling */
+.final-result-container {
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto; /* Scroll if content exceeds viewport */
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+
+    /* Background styling */
+    background: linear-gradient(135deg, #1a1a1a, #2c2c2c);
+    color: #f1f1f1;
+    font-family: 'Arial', sans-serif;
+
+    /* Center the content horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Title styling */
+.final-result-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+
+/* Loading and error messages */
+.loading-text,
+.error-text {
+    font-size: 18px;
+    color: #ff5555;
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Main result card */
+.final-result {
+    max-width: 800px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Paragraphs in the result card */
+.final-result p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+/* Career Guidance heading */
+.career-guidance {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffcc66;
+}
+
+/* The pre block for career text (scrollable if needed) */
+.career-text {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 15px;
+    border-radius: 6px;
+    white-space: pre-wrap;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+/* Finalize button styling */
+.finalize-button {
+    width: 220px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #ff4444;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.finalize-button:hover {
+    background-color: #cc0000;
+}
+
+.finalize-button:disabled {
+    background-color: #555;
+    cursor: not-allowed;
+}

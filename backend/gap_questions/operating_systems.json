@@ -1,0 +1,166 @@
+{
+    "topic": "Operating Systems",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is a process?",
+        "options": ["A running program", "A CPU register", "A memory segment", "An OS thread"],
+        "answer": "A running program",
+        "difficulty": "easy",
+        "prerequisite": "Process vs. thread"
+      },
+      {
+        "id": 2,
+        "question": "Which of the following is true about a thread?",
+        "options": ["Threads run independently of processes", "Threads share memory within a process", "Each thread has its own memory", "Threads do not run on CPUs"],
+        "answer": "Threads share memory within a process",
+        "difficulty": "easy",
+        "prerequisite": "Process vs. thread"
+      },
+      {
+        "id": 3,
+        "question": "What is the key difference between a process and a thread?",
+        "options": ["Processes share memory, threads do not", "Threads share memory, processes do not", "Processes execute faster", "Threads require more resources"],
+        "answer": "Threads share memory, processes do not",
+        "difficulty": "medium",
+        "prerequisite": "Process vs. thread"
+      },
+      {
+        "id": 4,
+        "question": "Which of the following best describes a context switch?",
+        "options": ["Switching between threads", "Switching between processes", "Saving and loading CPU state", "All of the above"],
+        "answer": "All of the above",
+        "difficulty": "hard",
+        "prerequisite": "Process vs. thread"
+      },
+      {
+        "id": 5,
+        "question": "Which scheduling algorithm selects the process with the shortest execution time first?",
+        "options": ["FIFO", "Round Robin", "SJF", "Multilevel Queue"],
+        "answer": "SJF",
+        "difficulty": "easy",
+        "prerequisite": "Scheduling basics"
+      },
+      {
+        "id": 6,
+        "question": "What is the main advantage of Round Robin scheduling?",
+        "options": ["Maximizes CPU utilization", "Ensures fairness", "Minimizes response time", "Prevents starvation"],
+        "answer": "Ensures fairness",
+        "difficulty": "easy",
+        "prerequisite": "Scheduling basics"
+      },
+      {
+        "id": 7,
+        "question": "Which CPU scheduling algorithm may cause starvation?",
+        "options": ["Round Robin", "SJF", "FIFO", "Multilevel Queue"],
+        "answer": "SJF",
+        "difficulty": "medium",
+        "prerequisite": "Scheduling basics"
+      },
+      {
+        "id": 8,
+        "question": "Which scheduling method is most suitable for real-time systems?",
+        "options": ["FIFO", "Multilevel Queue", "Priority Scheduling", "Round Robin"],
+        "answer": "Priority Scheduling",
+        "difficulty": "hard",
+        "prerequisite": "Scheduling basics"
+      },
+      {
+        "id": 9,
+        "question": "Which memory management technique divides memory into fixed-sized blocks?",
+        "options": ["Segmentation", "Paging", "Swapping", "Fragmentation"],
+        "answer": "Paging",
+        "difficulty": "easy",
+        "prerequisite": "Memory: paging, segmentation"
+      },
+      {
+        "id": 10,
+        "question": "Which memory management scheme allows variable-sized memory allocation?",
+        "options": ["Paging", "Segmentation", "Swapping", "MMU"],
+        "answer": "Segmentation",
+        "difficulty": "easy",
+        "prerequisite": "Memory: paging, segmentation"
+      },
+      {
+        "id": 11,
+        "question": "Which of the following causes external fragmentation?",
+        "options": ["Paging", "Segmentation", "Virtual Memory", "TLB"],
+        "answer": "Segmentation",
+        "difficulty": "medium",
+        "prerequisite": "Memory: paging, segmentation"
+      },
+      {
+        "id": 12,
+        "question": "What is a page fault?",
+        "options": ["A memory error", "A page missing from RAM", "A failed write operation", "A CPU instruction failure"],
+        "answer": "A page missing from RAM",
+        "difficulty": "hard",
+        "prerequisite": "Memory: paging, segmentation"
+      },
+      {
+        "id": 13,
+        "question": "What does a mutex ensure in synchronization?",
+        "options": ["Multiple access to a resource", "Mutual exclusion", "Faster process execution", "Thread switching"],
+        "answer": "Mutual exclusion",
+        "difficulty": "easy",
+        "prerequisite": "Synchronization: mutex, semaphore"
+      },
+      {
+        "id": 14,
+        "question": "Which synchronization mechanism allows multiple processes but controls access?",
+        "options": ["Mutex", "Semaphore", "Deadlock", "Thread pool"],
+        "answer": "Semaphore",
+        "difficulty": "easy",
+        "prerequisite": "Synchronization: mutex, semaphore"
+      },
+      {
+        "id": 15,
+        "question": "Which of the following is a difference between a mutex and a semaphore?",
+        "options": ["A mutex allows multiple accesses", "A semaphore allows multiple accesses", "A mutex prevents deadlock", "A semaphore prevents mutual exclusion"],
+        "answer": "A semaphore allows multiple accesses",
+        "difficulty": "medium",
+        "prerequisite": "Synchronization: mutex, semaphore"
+      },
+      {
+        "id": 16,
+        "question": "Which problem occurs when multiple processes wait indefinitely for each other?",
+        "options": ["Deadlock", "Starvation", "Thrashing", "Paging"],
+        "answer": "Deadlock",
+        "difficulty": "hard",
+        "prerequisite": "Synchronization: mutex, semaphore"
+      },
+      {
+        "id": 17,
+        "question": "Which file system component stores metadata about files?",
+        "options": ["File block", "Index node (inode)", "Superblock", "Buffer cache"],
+        "answer": "Index node (inode)",
+        "difficulty": "easy",
+        "prerequisite": "File systems"
+      },
+      {
+        "id": 18,
+        "question": "What is the primary function of a file system?",
+        "options": ["Manage CPU scheduling", "Organize and store files", "Handle memory paging", "Prevent deadlocks"],
+        "answer": "Organize and store files",
+        "difficulty": "easy",
+        "prerequisite": "File systems"
+      },
+      {
+        "id": 19,
+        "question": "Which file system supports journaling to prevent corruption?",
+        "options": ["FAT32", "ext4", "NTFS", "HFS+"],
+        "answer": "ext4",
+        "difficulty": "medium",
+        "prerequisite": "File systems"
+      },
+      {
+        "id": 20,
+        "question": "Which file allocation method minimizes fragmentation?",
+        "options": ["Contiguous", "Linked", "Indexed", "Clustered"],
+        "answer": "Indexed",
+        "difficulty": "hard",
+        "prerequisite": "File systems"
+      }
+    ]
+  }
+  

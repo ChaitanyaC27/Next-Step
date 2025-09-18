@@ -1,0 +1,166 @@
+{
+    "topic": "Object-Oriented Programming (OOP)",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Which OOP concept bundles data and methods together?",
+        "options": ["Encapsulation", "Inheritance", "Polymorphism", "Abstraction"],
+        "answer": "Encapsulation",
+        "difficulty": "easy",
+        "prerequisite": "Classes, objects, encapsulation"
+      },
+      {
+        "id": 2,
+        "question": "What is an instance of a class called?",
+        "options": ["Method", "Function", "Object", "Variable"],
+        "answer": "Object",
+        "difficulty": "easy",
+        "prerequisite": "Classes, objects, encapsulation"
+      },
+      {
+        "id": 3,
+        "question": "Which keyword is commonly used to define a class in most programming languages?",
+        "options": ["define", "new", "class", "object"],
+        "answer": "class",
+        "difficulty": "medium",
+        "prerequisite": "Classes, objects, encapsulation"
+      },
+      {
+        "id": 4,
+        "question": "Which access modifier restricts access to class members only within the same class?",
+        "options": ["Public", "Protected", "Private", "Default"],
+        "answer": "Private",
+        "difficulty": "hard",
+        "prerequisite": "Classes, objects, encapsulation"
+      },
+      {
+        "id": 5,
+        "question": "Which OOP concept allows a child class to use properties of a parent class?",
+        "options": ["Encapsulation", "Inheritance", "Polymorphism", "Abstraction"],
+        "answer": "Inheritance",
+        "difficulty": "easy",
+        "prerequisite": "Inheritance, polymorphism"
+      },
+      {
+        "id": 6,
+        "question": "Which keyword is commonly used to inherit from a parent class?",
+        "options": ["this", "extends", "implements", "inherits"],
+        "answer": "extends",
+        "difficulty": "easy",
+        "prerequisite": "Inheritance, polymorphism"
+      },
+      {
+        "id": 7,
+        "question": "What is it called when a child class provides a different implementation for a parent class method?",
+        "options": ["Overloading", "Overriding", "Encapsulation", "Abstraction"],
+        "answer": "Overriding",
+        "difficulty": "medium",
+        "prerequisite": "Inheritance, polymorphism"
+      },
+      {
+        "id": 8,
+        "question": "Which type of inheritance is not directly supported in Java?",
+        "options": ["Single", "Multilevel", "Multiple", "Hierarchical"],
+        "answer": "Multiple",
+        "difficulty": "hard",
+        "prerequisite": "Inheritance, polymorphism"
+      },
+      {
+        "id": 9,
+        "question": "What is method overloading?",
+        "options": ["Changing the method body", "Having multiple methods with the same name but different parameters", "Using a method in a subclass", "Restricting method access"],
+        "answer": "Having multiple methods with the same name but different parameters",
+        "difficulty": "easy",
+        "prerequisite": "Overloading vs. overriding"
+      },
+      {
+        "id": 10,
+        "question": "What is the main difference between method overloading and overriding?",
+        "options": ["Overloading happens at runtime, overriding at compile-time", "Overloading uses different method names, overriding does not", "Overloading changes method parameters, overriding changes method behavior", "Overloading is only in inheritance"],
+        "answer": "Overloading changes method parameters, overriding changes method behavior",
+        "difficulty": "easy",
+        "prerequisite": "Overloading vs. overriding"
+      },
+      {
+        "id": 11,
+        "question": "Which of these supports method overriding?",
+        "options": ["Static methods", "Final methods", "Instance methods", "Private methods"],
+        "answer": "Instance methods",
+        "difficulty": "medium",
+        "prerequisite": "Overloading vs. overriding"
+      },
+      {
+        "id": 12,
+        "question": "Which keyword is used to prevent method overriding?",
+        "options": ["static", "final", "abstract", "override"],
+        "answer": "final",
+        "difficulty": "hard",
+        "prerequisite": "Overloading vs. overriding"
+      },
+      {
+        "id": 13,
+        "question": "Which OOP concept hides implementation details from the user?",
+        "options": ["Encapsulation", "Inheritance", "Polymorphism", "Abstraction"],
+        "answer": "Abstraction",
+        "difficulty": "easy",
+        "prerequisite": "Abstraction, interfaces"
+      },
+      {
+        "id": 14,
+        "question": "Which keyword is used to define an abstract class?",
+        "options": ["abstract", "interface", "extends", "virtual"],
+        "answer": "abstract",
+        "difficulty": "easy",
+        "prerequisite": "Abstraction, interfaces"
+      },
+      {
+        "id": 15,
+        "question": "Which of the following is true about an interface?",
+        "options": ["Can have method implementations", "Cannot be instantiated", "Can have constructors", "Does not support multiple inheritance"],
+        "answer": "Cannot be instantiated",
+        "difficulty": "medium",
+        "prerequisite": "Abstraction, interfaces"
+      },
+      {
+        "id": 16,
+        "question": "Which OOP concept ensures a class can have multiple behaviors at runtime?",
+        "options": ["Encapsulation", "Inheritance", "Polymorphism", "Abstraction"],
+        "answer": "Polymorphism",
+        "difficulty": "hard",
+        "prerequisite": "Abstraction, interfaces"
+      },
+      {
+        "id": 17,
+        "question": "What type of relationship exists between a class and an interface it implements?",
+        "options": ["Is-A", "Has-A", "Uses-A", "Extends"],
+        "answer": "Is-A",
+        "difficulty": "easy",
+        "prerequisite": "Object relationships"
+      },
+      {
+        "id": 18,
+        "question": "What type of relationship exists between a Car class and an Engine class?",
+        "options": ["Is-A", "Has-A", "Uses-A", "Extends"],
+        "answer": "Has-A",
+        "difficulty": "easy",
+        "prerequisite": "Object relationships"
+      },
+      {
+        "id": 19,
+        "question": "Which relationship is used when one object is made up of multiple smaller objects?",
+        "options": ["Inheritance", "Composition", "Polymorphism", "Abstraction"],
+        "answer": "Composition",
+        "difficulty": "medium",
+        "prerequisite": "Object relationships"
+      },
+      {
+        "id": 20,
+        "question": "Which relationship is stronger: aggregation or composition?",
+        "options": ["Aggregation", "Composition", "Both are equal", "Neither exists in OOP"],
+        "answer": "Composition",
+        "difficulty": "hard",
+        "prerequisite": "Object relationships"
+      }
+    ]
+  }
+  

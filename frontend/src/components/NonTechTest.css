@@ -1,0 +1,220 @@
+/* Dark Theme with Smooth Animations */
+
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Floating Animation */
+@keyframes floatEffect {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-5px); }
+  100% { transform: translateY(0px); }
+}
+
+/* Glowing Animation */
+@keyframes glowEffect {
+  0% { box-shadow: 0 0 10px rgba(255, 153, 0, 0.5); }
+  50% { box-shadow: 0 0 20px rgba(255, 153, 0, 1); }
+  100% { box-shadow: 0 0 10px rgba(255, 153, 0, 0.5); }
+}
+
+/* Heading with Floating Effect */
+.coder-personality-heading {
+  background: linear-gradient(45deg, #ffffff, #ff9900); /* Bright white to orange gradient */
+  -webkit-background-clip:text;
+  -webkit-text-fill-color: transparent;
+  font-size: 28px;
+  font-weight: bold;
+  text-shadow: 3px 3px 7px rgba(255, 153, 0, 0.8);
+  animation: floatEffect 3s infinite ease-in-out; /* Floating Animation */
+}
+
+/* Subtext */
+.coder-personality-subtext {
+  color: #ff6666; /* Light Red Color */
+  font-size: 12px;
+  font-style: italic;
+  opacity: 0.9;
+}
+
+/* Container with Glow */
+.non-tech-test-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #1e1e1e;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+  text-align: center;
+  animation: fadeIn 0.8s ease-in-out, glowEffect 3s infinite alternate; /* Glow Effect */
+}
+
+/* Questions Floating */
+.questions-container {
+  max-height: 400px;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+/* Individual Question Card Floating */
+.question {
+  margin-bottom: 20px;
+  padding: 15px;
+  background: #252525;
+  border-radius: 8px;
+  transition: transform 0.3s;
+  animation: floatEffect 5s infinite ease-in-out; /* Floating Animation */
+}
+
+.question:hover {
+  transform: scale(1.05);
+}
+
+/* Likert Buttons */
+.likert-btn {
+  background: #333;
+  color: #ece9e9;
+  border: 1px solid #555;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.likert-btn:hover {
+  background: #ffcc00;
+  color: #000;
+}
+
+.likert-btn.selected {
+  background: #ff9800;
+  color: #000;
+}
+
+/* Submit Button Floating + Glow */
+.submit-btn {
+  background: #ffcc00;
+  color: #000;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-top: 20px;
+  animation: glowEffect 2s infinite alternate; /* Glowing Animation */
+}
+
+.submit-btn:hover {
+  background: #ffaa00;
+  transform: scale(1.1);
+}
+
+/* Scrollbar Darker */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #444444;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555555;
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* Light Orange Theme */
+:root {
+  --main-color: #ff416c; /* Light Orange */
+  --hover-color: #ff9a41; /* Darker Orange */
+}
+
+/* Smooth Slide-in Effect */
+@keyframes slideIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.slide-in {
+  animation: slideIn 1s ease-out;
+}
+
+/* Zoom Effect for Personality Type */
+@keyframes zoomEffect {
+  from { transform: scale(0.5); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.zoom-effect {
+  animation: zoomEffect 0.8s ease-out;
+  font-size: 30px;
+  font-weight: bold;
+  color: var(--main-color);
+  text-shadow: 3px 3px 10px #ff416c;
+}
+
+/* Smooth Fade-in Effect */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Button Neon Hover Effect */
+.btn-hover-neon {
+  background: var(--main-color);
+  color: white;
+  padding: 12px 22px;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 10px rgba(255, 165, 0, 0.8);
+}
+
+.btn-hover-neon:hover {
+  background-color: inherit; /* Keeps the original color */
+  color: inherit; /* Ensures text color remains unchanged */
+  box-shadow: none; /* Removes any glowing effect */
+}
+
+/* Loading Animation - Rotating Light Orange Circle */
+.loading-animation {
+  width: 45px;
+  height: 45px;
+  border: 5px solid rgba(255, 140, 0, 0.3);
+  border-top-color: var(--main-color);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

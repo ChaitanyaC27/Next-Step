@@ -1,0 +1,152 @@
+[
+    {
+        "id": 1,
+        "title": "Hello, World!",
+        "problem_statement": "Write a program that prints exactly: Hello, World!",
+        "input_example": "None",
+        "expected_output": "Hello, World!",
+        "constraints": "Output must exactly match. No additional spaces or characters.",
+        "min_lines": 1,
+        "max_lines": 10
+    },
+    {
+        "id": 2,
+        "title": "Simple Addition",
+        "problem_statement": "Write a program that takes two integers as input and prints their sum.",
+        "input_example": "3 7",
+        "expected_output": "10",
+        "constraints": "Must read input from standard input. No hardcoded values.",
+        "min_lines": 2,
+        "max_lines": 12
+    },
+    {
+        "id": 3,
+        "title": "Even or Odd",
+        "problem_statement": "Write a program that checks if a given integer is even or odd.",
+        "input_example": "8",
+        "expected_output": "Even",
+        "constraints": "Use conditional statements. Do not hardcode outputs.",
+        "min_lines": 3,
+        "max_lines": 12
+    },
+    {
+        "id": 4,
+        "title": "Factorial Calculation",
+        "problem_statement": "Write a program that calculates the factorial of a given number.",
+        "input_example": "5",
+        "expected_output": "120",
+        "constraints": "Use loops or recursion. Do not use pre-built factorial functions.",
+        "min_lines": 4,
+        "max_lines": 15
+    },
+    {
+        "id": 5,
+        "title": "Find the Largest Number",
+        "problem_statement": "Write a program that takes three integers as input and prints the largest one.",
+        "input_example": "3 7 2",
+        "expected_output": "7",
+        "constraints": "Use conditional statements. No built-in max functions.",
+        "min_lines": 4,
+        "max_lines": 12
+    },
+    {
+        "id": 6,
+        "title": "Reverse a String",
+        "problem_statement": "Write a program that reverses a given string.",
+        "input_example": "hello",
+        "expected_output": "olleh",
+        "constraints": "Use loops or slicing. No built-in reverse functions.",
+        "min_lines": 4,
+        "max_lines": 12
+    },
+    {
+        "id": 7,
+        "title": "Multiplication Table",
+        "problem_statement": "Write a program that prints the multiplication table of a given number up to 10.",
+        "input_example": "3",
+        "expected_output": "3 6 9 12 15 18 21 24 27 30",
+        "constraints": "Use loops. No hardcoded outputs.",
+        "min_lines": 5,
+        "max_lines": 15
+    },
+    {
+        "id": 8,
+        "title": "Palindrome Check",
+        "problem_statement": "Write a program that checks if a given string is a palindrome.",
+        "input_example": "racecar",
+        "expected_output": "Yes",
+        "constraints": "Use loops or string manipulation. No built-in palindrome functions.",
+        "min_lines": 5,
+        "max_lines": 15
+    },
+    {
+        "id": 9,
+        "title": "Sum of Digits",
+        "problem_statement": "Write a program that calculates the sum of digits of a given number.",
+        "input_example": "123",
+        "expected_output": "6",
+        "constraints": "Use loops or recursion. No built-in sum functions.",
+        "min_lines": 4,
+        "max_lines": 12
+    },
+    {
+        "id": 10,
+        "title": "Prime Number Check",
+        "problem_statement": "Write a program that checks if a given number is prime.",
+        "input_example": "11",
+        "expected_output": "Yes",
+        "constraints": "Use loops and conditions. No built-in prime check functions.",
+        "min_lines": 5,
+        "max_lines": 15
+    },
+    {
+        "id": 11,
+        "title": "Fibonacci Series",
+        "problem_statement": "Write a program that prints the first N Fibonacci numbers.",
+        "input_example": "5",
+        "expected_output": "0 1 1 2 3",
+        "constraints": "Use loops or recursion. No built-in Fibonacci functions.",
+        "min_lines": 5,
+        "max_lines": 15
+    },
+    {
+        "id": 12,
+        "title": "GCD Calculation",
+        "problem_statement": "Write a program that calculates the Greatest Common Divisor (GCD) of two numbers.",
+        "input_example": "8 12",
+        "expected_output": "4",
+        "constraints": "Use loops or recursion. No built-in GCD functions.",
+        "min_lines": 5,
+        "max_lines": 15
+    },
+    {
+        "id": 13,
+        "title": "Binary to Decimal Conversion",
+        "problem_statement": "Write a program that converts a binary number to decimal.",
+        "input_example": "1010",
+        "expected_output": "10",
+        "constraints": "Use loops or mathematical conversion. No built-in functions.",
+        "min_lines": 4,
+        "max_lines": 12
+    },
+    {
+        "id": 14,
+        "title": "Sorting an Array",
+        "problem_statement": "Write a program that sorts an array of integers in ascending order.",
+        "input_example": "[5, 3, 8, 1]",
+        "expected_output": "[1, 3, 5, 8]",
+        "constraints": "Use sorting algorithms like Bubble Sort or Selection Sort. No built-in sort functions.",
+        "min_lines": 6,
+        "max_lines": 20
+    },
+    {
+        "id": 15,
+        "title": "Count Vowels in a String",
+        "problem_statement": "Write a program that counts the number of vowels in a given string.",
+        "input_example": "hello",
+        "expected_output": "2",
+        "constraints": "Use loops and conditions. No built-in vowel count functions.",
+        "min_lines": 5,
+        "max_lines": 15
+    }
+]

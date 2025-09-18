@@ -1,0 +1,166 @@
+{
+    "topic": "Data Structures & Algorithms",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is the index of the first element in a zero-based array?",
+        "options": ["0", "1", "-1", "Depends on language"],
+        "answer": "0",
+        "difficulty": "easy",
+        "prerequisite": "Arrays, lists, linked lists"
+      },
+      {
+        "id": 2,
+        "question": "Which data structure allows dynamic resizing in most languages?",
+        "options": ["Array", "List", "Stack", "Queue"],
+        "answer": "List",
+        "difficulty": "easy",
+        "prerequisite": "Arrays, lists, linked lists"
+      },
+      {
+        "id": 3,
+        "question": "Which of these is an advantage of a linked list over an array?",
+        "options": ["Faster access time", "Less memory usage", "Dynamic size", "Sorted by default"],
+        "answer": "Dynamic size",
+        "difficulty": "medium",
+        "prerequisite": "Arrays, lists, linked lists"
+      },
+      {
+        "id": 4,
+        "question": "What is the time complexity of inserting an element in the middle of a linked list?",
+        "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+        "answer": "O(n)",
+        "difficulty": "hard",
+        "prerequisite": "Arrays, lists, linked lists"
+      },
+      {
+        "id": 5,
+        "question": "What is the worst-case time complexity of linear search?",
+        "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+        "answer": "O(n)",
+        "difficulty": "easy",
+        "prerequisite": "Time complexity basics"
+      },
+      {
+        "id": 6,
+        "question": "Which function represents logarithmic time complexity?",
+        "options": ["O(n)", "O(log n)", "O(1)", "O(n^2)"],
+        "answer": "O(log n)",
+        "difficulty": "easy",
+        "prerequisite": "Time complexity basics"
+      },
+      {
+        "id": 7,
+        "question": "Which sorting algorithm has an average case time complexity of O(n log n)?",
+        "options": ["Bubble Sort", "Selection Sort", "Quick Sort", "Insertion Sort"],
+        "answer": "Quick Sort",
+        "difficulty": "medium",
+        "prerequisite": "Time complexity basics"
+      },
+      {
+        "id": 8,
+        "question": "What is the best-case time complexity of Quick Sort?",
+        "options": ["O(n)", "O(n log n)", "O(n^2)", "O(1)"],
+        "answer": "O(n log n)",
+        "difficulty": "hard",
+        "prerequisite": "Time complexity basics"
+      },
+      {
+        "id": 9,
+        "question": "Which sorting algorithm has the worst-case time complexity of O(n^2)?",
+        "options": ["Merge Sort", "Heap Sort", "Quick Sort", "Bubble Sort"],
+        "answer": "Bubble Sort",
+        "difficulty": "easy",
+        "prerequisite": "Sorting efficiency"
+      },
+      {
+        "id": 10,
+        "question": "Which sorting algorithm is generally the fastest for large datasets?",
+        "options": ["Bubble Sort", "Insertion Sort", "Merge Sort", "Selection Sort"],
+        "answer": "Merge Sort",
+        "difficulty": "easy",
+        "prerequisite": "Sorting efficiency"
+      },
+      {
+        "id": 11,
+        "question": "What is the worst-case time complexity of Merge Sort?",
+        "options": ["O(n)", "O(n log n)", "O(n^2)", "O(1)"],
+        "answer": "O(n log n)",
+        "difficulty": "medium",
+        "prerequisite": "Sorting efficiency"
+      },
+      {
+        "id": 12,
+        "question": "Which sorting algorithm performs best when data is already sorted?",
+        "options": ["Bubble Sort", "Insertion Sort", "Quick Sort", "Merge Sort"],
+        "answer": "Insertion Sort",
+        "difficulty": "hard",
+        "prerequisite": "Sorting efficiency"
+      },
+      {
+        "id": 13,
+        "question": "Which data structure follows Last In, First Out (LIFO) principle?",
+        "options": ["Queue", "Stack", "Linked List", "Array"],
+        "answer": "Stack",
+        "difficulty": "easy",
+        "prerequisite": "Stack & queue operations"
+      },
+      {
+        "id": 14,
+        "question": "Which operation removes the front element in a queue?",
+        "options": ["push", "pop", "dequeue", "remove"],
+        "answer": "dequeue",
+        "difficulty": "easy",
+        "prerequisite": "Stack & queue operations"
+      },
+      {
+        "id": 15,
+        "question": "Which function is used to add an element to the top of a stack?",
+        "options": ["push", "enqueue", "insert", "append"],
+        "answer": "push",
+        "difficulty": "medium",
+        "prerequisite": "Stack & queue operations"
+      },
+      {
+        "id": 16,
+        "question": "What happens if you pop an element from an empty stack?",
+        "options": ["Removes null", "Runtime error", "Returns -1", "Ignores operation"],
+        "answer": "Runtime error",
+        "difficulty": "hard",
+        "prerequisite": "Stack & queue operations"
+      },
+      {
+        "id": 17,
+        "question": "Which concept does recursion rely on?",
+        "options": ["Looping", "Function calls", "Pointers", "Lists"],
+        "answer": "Function calls",
+        "difficulty": "easy",
+        "prerequisite": "Recursion basics"
+      },
+      {
+        "id": 18,
+        "question": "Which condition is necessary for recursion to terminate?",
+        "options": ["Infinite loop", "Stack overflow", "Base case", "None"],
+        "answer": "Base case",
+        "difficulty": "easy",
+        "prerequisite": "Recursion basics"
+      },
+      {
+        "id": 19,
+        "question": "What is the time complexity of calculating Fibonacci numbers using basic recursion?",
+        "options": ["O(n)", "O(log n)", "O(2^n)", "O(n^2)"],
+        "answer": "O(2^n)",
+        "difficulty": "medium",
+        "prerequisite": "Recursion basics"
+      },
+      {
+        "id": 20,
+        "question": "What happens if a recursive function lacks a base case?",
+        "options": ["Executes once", "Infinite recursion", "Compilation error", "Returns null"],
+        "answer": "Infinite recursion",
+        "difficulty": "hard",
+        "prerequisite": "Recursion basics"
+      }
+    ]
+  }
+  

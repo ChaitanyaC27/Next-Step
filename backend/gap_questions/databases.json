@@ -1,0 +1,166 @@
+{
+    "topic": "Databases",
+    "questions": [
+      {
+        "id": 1,
+        "question": "In a relational database, data is stored in which structure?",
+        "options": ["Graphs", "Tables", "Documents", "Trees"],
+        "answer": "Tables",
+        "difficulty": "easy",
+        "prerequisite": "Tables, rows, columns"
+      },
+      {
+        "id": 2,
+        "question": "What is a single record in a database table called?",
+        "options": ["Row", "Column", "Field", "Schema"],
+        "answer": "Row",
+        "difficulty": "easy",
+        "prerequisite": "Tables, rows, columns"
+      },
+      {
+        "id": 3,
+        "question": "Which of the following is true about database columns?",
+        "options": ["Each column must have a unique value", "A column represents a field", "Columns store only numbers", "Columns cannot be renamed"],
+        "answer": "A column represents a field",
+        "difficulty": "medium",
+        "prerequisite": "Tables, rows, columns"
+      },
+      {
+        "id": 4,
+        "question": "What is the term for a table with no duplicate rows?",
+        "options": ["Unique Table", "Normalized Table", "Primary Table", "Indexed Table"],
+        "answer": "Normalized Table",
+        "difficulty": "hard",
+        "prerequisite": "Tables, rows, columns"
+      },
+      {
+        "id": 5,
+        "question": "Which key uniquely identifies each row in a table?",
+        "options": ["Foreign key", "Primary key", "Composite key", "Unique key"],
+        "answer": "Primary key",
+        "difficulty": "easy",
+        "prerequisite": "Keys: primary, foreign, unique"
+      },
+      {
+        "id": 6,
+        "question": "A foreign key in one table refers to what in another table?",
+        "options": ["Primary key", "Index", "Stored procedure", "Constraint"],
+        "answer": "Primary key",
+        "difficulty": "easy",
+        "prerequisite": "Keys: primary, foreign, unique"
+      },
+      {
+        "id": 7,
+        "question": "Which key ensures a column has only unique values but allows NULLs?",
+        "options": ["Primary key", "Foreign key", "Unique key", "Composite key"],
+        "answer": "Unique key",
+        "difficulty": "medium",
+        "prerequisite": "Keys: primary, foreign, unique"
+      },
+      {
+        "id": 8,
+        "question": "Which statement is false about primary keys?",
+        "options": ["Must be unique", "Cannot be NULL", "Can have multiple primary keys", "Identifies each record"],
+        "answer": "Can have multiple primary keys",
+        "difficulty": "hard",
+        "prerequisite": "Keys: primary, foreign, unique"
+      },
+      {
+        "id": 9,
+        "question": "Which SQL statement retrieves data from a database?",
+        "options": ["INSERT", "UPDATE", "SELECT", "DELETE"],
+        "answer": "SELECT",
+        "difficulty": "easy",
+        "prerequisite": "Basic SQL: SELECT, INSERT, UPDATE, DELETE"
+      },
+      {
+        "id": 10,
+        "question": "Which SQL command adds a new row to a table?",
+        "options": ["INSERT", "UPDATE", "DELETE", "ALTER"],
+        "answer": "INSERT",
+        "difficulty": "easy",
+        "prerequisite": "Basic SQL: SELECT, INSERT, UPDATE, DELETE"
+      },
+      {
+        "id": 11,
+        "question": "Which SQL clause is used to filter query results?",
+        "options": ["ORDER BY", "WHERE", "GROUP BY", "HAVING"],
+        "answer": "WHERE",
+        "difficulty": "medium",
+        "prerequisite": "Basic SQL: SELECT, INSERT, UPDATE, DELETE"
+      },
+      {
+        "id": 12,
+        "question": "Which SQL command removes all rows from a table but keeps the structure?",
+        "options": ["DROP", "DELETE", "TRUNCATE", "ALTER"],
+        "answer": "TRUNCATE",
+        "difficulty": "hard",
+        "prerequisite": "Basic SQL: SELECT, INSERT, UPDATE, DELETE"
+      },
+      {
+        "id": 13,
+        "question": "Which type of database stores data in tables with relations?",
+        "options": ["Relational", "NoSQL", "Graph", "Key-Value"],
+        "answer": "Relational",
+        "difficulty": "easy",
+        "prerequisite": "Relational vs. non-relational DBs"
+      },
+      {
+        "id": 14,
+        "question": "Which database type is best suited for hierarchical data storage?",
+        "options": ["Relational", "Document-based", "Graph", "Key-Value"],
+        "answer": "Graph",
+        "difficulty": "easy",
+        "prerequisite": "Relational vs. non-relational DBs"
+      },
+      {
+        "id": 15,
+        "question": "Which NoSQL database type stores data in JSON-like format?",
+        "options": ["Graph", "Document-based", "Key-Value", "Column-family"],
+        "answer": "Document-based",
+        "difficulty": "medium",
+        "prerequisite": "Relational vs. non-relational DBs"
+      },
+      {
+        "id": 16,
+        "question": "Which type of database allows horizontal scaling more easily?",
+        "options": ["Relational", "NoSQL", "Graph", "In-memory"],
+        "answer": "NoSQL",
+        "difficulty": "hard",
+        "prerequisite": "Relational vs. non-relational DBs"
+      },
+      {
+        "id": 17,
+        "question": "What is the primary purpose of an index in a database?",
+        "options": ["To enforce unique values", "To improve search performance", "To store temporary data", "To reduce storage space"],
+        "answer": "To improve search performance",
+        "difficulty": "easy",
+        "prerequisite": "Indexing"
+      },
+      {
+        "id": 18,
+        "question": "Which type of index improves query performance but requires extra storage?",
+        "options": ["Primary key", "Unique index", "B-tree index", "Foreign key"],
+        "answer": "B-tree index",
+        "difficulty": "easy",
+        "prerequisite": "Indexing"
+      },
+      {
+        "id": 19,
+        "question": "Which index type is best for searching non-sequential values?",
+        "options": ["Clustered", "Non-clustered", "Primary", "Foreign"],
+        "answer": "Non-clustered",
+        "difficulty": "medium",
+        "prerequisite": "Indexing"
+      },
+      {
+        "id": 20,
+        "question": "What is a downside of adding too many indexes to a table?",
+        "options": ["Increases query speed", "Uses more memory", "Prevents data modification", "Eliminates primary key"],
+        "answer": "Uses more memory",
+        "difficulty": "hard",
+        "prerequisite": "Indexing"
+      }
+    ]
+  }
+  

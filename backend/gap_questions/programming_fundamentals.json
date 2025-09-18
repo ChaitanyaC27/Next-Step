@@ -1,0 +1,165 @@
+{
+  "topic": "Programming Fundamentals",
+  "questions": [
+      {
+          "id": 1,
+          "question": "What is the correct syntax to declare a variable storing an integer in most languages?",
+          "options": ["var x = 5;", "x := 5;", "int x = 5;", "let x = 5;"],
+          "answer": "int x = 5;",
+          "difficulty": "easy",
+          "prerequisites": ["Basic common syntax"]
+      },
+      {
+          "id": 2,
+          "question": "Which of these is a valid loop structure in most programming languages?",
+          "options": ["repeat x = 10", "for (i = 0; i < 10; i++)", "while x < 10 then", "do i = 0 to 10"],
+          "answer": "for (i = 0; i < 10; i++)",
+          "difficulty": "easy",
+          "prerequisites": ["Basic common syntax"]
+      },
+      {
+          "id": 3,
+          "question": "Which keyword is commonly used to define a constant value in many programming languages?",
+          "options": ["let", "const", "define", "final"],
+          "answer": "const",
+          "difficulty": "medium",
+          "prerequisites": ["Basic common syntax"]
+      },
+      {
+          "id": 4,
+          "question": "In most languages, what happens if you try to use an undefined variable?",
+          "options": ["Compiler error", "Runtime error", "Returns null", "Assigns default value"],
+          "answer": "Runtime error",
+          "difficulty": "hard",
+          "prerequisites": ["Basic common syntax"]
+      },
+      {
+          "id": 5,
+          "question": "Which data type is used to store a decimal number?",
+          "options": ["int", "float", "boolean", "char"],
+          "answer": "float",
+          "difficulty": "easy",
+          "prerequisites": ["Data types"]
+      },
+      {
+          "id": 6,
+          "question": "Which of these data types represents only two possible values?",
+          "options": ["integer", "boolean", "string", "float"],
+          "answer": "boolean",
+          "difficulty": "easy",
+          "prerequisites": ["Data types"]
+      },
+      {
+          "id": 7,
+          "question": "Which data type is typically used for storing textual data?",
+          "options": ["char", "string", "byte", "text"],
+          "answer": "string",
+          "difficulty": "medium",
+          "prerequisites": ["Data types"]
+      },
+      {
+          "id": 8,
+          "question": "What is the result of 5 / 2 in most strongly-typed languages without type casting?",
+          "options": ["2.5", "2", "3", "Error"],
+          "answer": "2",
+          "difficulty": "hard",
+          "prerequisites": ["Data types"]
+      },
+      {
+          "id": 9,
+          "question": "Which keyword is used to check conditions in most programming languages?",
+          "options": ["if", "case", "switch", "check"],
+          "answer": "if",
+          "difficulty": "easy",
+          "prerequisites": ["Control flow"]
+      },
+      {
+          "id": 10,
+          "question": "Which loop will always execute at least once?",
+          "options": ["for", "while", "do-while", "foreach"],
+          "answer": "do-while",
+          "difficulty": "easy",
+          "prerequisites": ["Control flow"]
+      },
+      {
+          "id": 11,
+          "question": "What will `if (0) { print('Yes'); } else { print('No'); }` output?",
+          "options": ["Yes", "No", "Error", "Depends on the language"],
+          "answer": "No",
+          "difficulty": "medium",
+          "prerequisites": ["Control flow"]
+      },
+      {
+          "id": 12,
+          "question": "What happens when an infinite loop runs in most languages?",
+          "options": ["Compiler error", "Crash", "Keeps running", "Skips iteration"],
+          "answer": "Keeps running",
+          "difficulty": "hard",
+          "prerequisites": ["Control flow"]
+      },
+      {
+          "id": 13,
+          "question": "Which keyword is used to define a function in most languages?",
+          "options": ["define", "def", "function", "fn"],
+          "answer": "function",
+          "difficulty": "easy",
+          "prerequisites": ["Functions"]
+      },
+      {
+          "id": 14,
+          "question": "What is the return type of a function that does not return any value?",
+          "options": ["int", "null", "void", "None"],
+          "answer": "void",
+          "difficulty": "easy",
+          "prerequisites": ["Functions"]
+      },
+      {
+          "id": 15,
+          "question": "Which of these is NOT a valid way to pass arguments to a function?",
+          "options": ["By value", "By reference", "By name", "By type"],
+          "answer": "By type",
+          "difficulty": "medium",
+          "prerequisites": ["Functions"]
+      },
+      {
+          "id": 16,
+          "question": "What happens if a function calls itself indefinitely?",
+          "options": ["Infinite loop", "Stack overflow error", "Stops execution", "Runtime warning"],
+          "answer": "Stack overflow error",
+          "difficulty": "hard",
+          "prerequisites": ["Functions"]
+      },
+      {
+          "id": 17,
+          "question": "What will be printed?\n```\nx = 3\ny = x\ny = 5\nprint(x)\n```",
+          "options": ["3", "5", "Error", "None"],
+          "answer": "3",
+          "difficulty": "easy",
+          "prerequisites": ["Code tracing"]
+      },
+      {
+          "id": 18,
+          "question": "What is the output?\n```\nfor i in range(3):\n    print(i)\n```",
+          "options": ["0 1 2", "1 2 3", "0 1 2 3", "Error"],
+          "answer": "0 1 2",
+          "difficulty": "easy",
+          "prerequisites": ["Code tracing"]
+      },
+      {
+          "id": 19,
+          "question": "What will be printed?\n```\ndef add(a, b):\n    return a + b\nprint(add(2, 3))\n```",
+          "options": ["2", "3", "5", "Error"],
+          "answer": "5",
+          "difficulty": "medium",
+          "prerequisites": ["Code tracing"]
+      },
+      {
+          "id": 20,
+          "question": "What happens if you access an array index out of range?",
+          "options": ["Returns null", "Wraps around", "Runtime error", "Ignores"],
+          "answer": "Runtime error",
+          "difficulty": "hard",
+          "prerequisites": ["Code tracing"]
+      }
+  ]
+}
